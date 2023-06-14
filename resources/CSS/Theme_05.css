@@ -1,0 +1,202 @@
+/* Estilo 1: Basico */
+
+/* 
+<table class="table">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>johndoe@example.com</td>
+  </tr>
+  <tr>
+    <td>Jane Smith</td>
+    <td>janesmith@example.com</td>
+  </tr>
+</table>
+*/
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* Estilo 2: Hover */
+
+/* 
+<table class="table">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>johndoe@example.com</td>
+  </tr>
+  <tr>
+    <td>Jane Smith</td>
+    <td>janesmith@example.com</td>
+  </tr>
+</table>
+*/
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilo 3: Estilo de resaltado */
+
+/* 
+  <table class="table">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>johndoe@example.com</td>
+  </tr>
+  <tr class="highlight">
+    <td>Jane Smith</td>
+    <td>janesmith@example.com</td>
+  </tr>
+</table>
+
+  */
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table .highlight {
+    background-color: #ffeeba;
+}
+
+/* Estilo 4: Alternancia de filas */
+
+/* 
+  <table class="table">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>johndoe@example.com</td>
+  </tr>
+  <tr>
+    <td>Jane Smith</td>
+    <td>janesmith@example.com</td>
+  </tr>
+  <tr>
+    <td>Mark Johnson</td>
+    <td>markjohnson@example.com</td>
+  </tr>
+</table>
+*/
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo 5: Encabezado fijo */
+
+/* 
+  <div class="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>johndoe@example.com</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>janesmith@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+ */
+
+.table-container {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /* Estilos para pantallas más pequeñas */
+    @media (max-width: 768px) {
+        .logo-seccion h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    /* Ajustes para pantallas pequeñas */
+    @media only screen and (max-width: 600px) {
+        .contenedor {
+            width: 100%;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="tel"] {
+            width: 100%;
+        }
+
+        .registrar,
+        button {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #buscador {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #tablaClientes {
+            margin-top: 10px;
+            overflow-x: auto;
+        }
+    }
+
+    /* Estilos para el formulario en pantallas más pequeñas */
+    @media screen and (max-width: 600px) {
+        .contenedor {
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        .contenedor h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .form-group label,
+        .form-group input,
+        .registrar,
+        #buscador {
+            font-size: 12px;
+            padding: 6px;
+        }
+
+        .registrar:hover {
+            transform: scale(1);
+        }
+    }
+
+    /* Estilos responsivos */
+    @media (max-width: 600px) {
+        .ruta-form form {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+    }
+
+    /* Footer */
+    .footer {
+        width: 100%;
+        height: 7vh;
+        background: #1B1919;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.875rem;
+    }
+
+    .footer span {
+        color: #00C4FF;
+        border-color: #1B1919;
+        font-weight: bold;
+    }
+
+    .footer span:hover {
+        color: #fff;
+        border-color: #1B1919;
+        font-weight: bold;
+    }
+
+    .span {
+        cursor: pointer;
+    }
+
+    .logo-seccion {
+        background: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        border: none;
+        padding: 12px 0px 8px 0px;
+    }
+
+    .logo-seccion h1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+</style>
+
+<body>
+
+    <!-- Salto de linea en la seccion 5 -->
+    <div id="tiquetes" class="logo-seccion">
+        <h1>Compra de Tiquetes</h1>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; All Right Reserved | Designed <span class="span">By Travel Exp</span> 2023
+        </p>
+    </div>
+</body>
+
+</html>
